@@ -33,25 +33,25 @@ A modern full-stack AI-powered finance management platform that helps users secu
    ```bash
    npm install --legacy-peer-deps
 3. **Set up your .env file**
+   ```bash
    DATABASE_URL=
-DIRECT_URL=
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
-GEMINI_API_KEY=
-RESEND_API_KEY=
-ARCJET_KEY=
-
-4. **Generate Prisma Client**
+   DIRECT_URL=
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   CLERK_SECRET_KEY=
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+   GEMINI_API_KEY=
+   RESEND_API_KEY=
+   ARCJET_KEY=
+5. **Generate Prisma Client**
    ```bash
    npx prisma generate
-5. **Apply Migrations**
+6. **Apply Migrations**
    ```bash
    npx prisma migrate dev
-6. **Run Development Server**
+7. **Run Development Server**
    ```bash
    npm run dev
 
@@ -62,4 +62,4 @@ ARCJET_KEY=
 
 - Manshi Kumawat
 
-##💡 Wallet AI is a minor project built with a focus on modern web development practices and real-time finance solutions.
+## 💡 Wallet AI is a minor project built with a focus on modern web development practices and real-time finance solutions.
